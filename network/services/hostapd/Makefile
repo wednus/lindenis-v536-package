@@ -12,7 +12,8 @@ PKG_RELEASE:=2
 PKG_REV:=a0604a423624f0fef5ac9a7bfbc1a9c439dd00f3
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=git://w1.fi/srv/git/hostap.git
+PKG_SOURCE_URL:=git://w1.fi/hostap.git
+#git://w1.fi/srv/git/hostap.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:=$(PKG_REV)
 PKG_SOURCE_PROTO:=git
