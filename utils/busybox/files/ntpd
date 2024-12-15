@@ -7,7 +7,7 @@ test -x $PROG || exit 0
 
 startdaemon(){
 	echo -n "Starting ntpd: "
-	$PROG -N -p ntp5.aliyun.com -p 0.openwrt.pool.ntp.org
+	$PROG -N -p time.nist.gov -p time.google.com
 	echo "done"
 }
 stopdaemon(){

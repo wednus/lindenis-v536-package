@@ -105,6 +105,6 @@ else
 fi
 
 
-ntpd -n -N -p cn.ntp.org.cn -p 0.cn.pool.ntp.org \
-           -p 1.asia.pool.ntp.org -p 2.asia.pool.ntp.org \
-           -p 3.asia.pool.ntp.org >/dev/null 2>&1 &
+ntpd -n -N -p time.nist.gov -p time.google.com \
+           -p 0.us.pool.ntp.org -p 1.us.pool.ntp.org \
+           -p 2.us.pool.ntp.org >/dev/null 2>&1 &
