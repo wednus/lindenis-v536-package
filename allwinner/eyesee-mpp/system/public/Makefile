@@ -45,7 +45,7 @@ define Package/$(PKG_NAME)
   SECTION:=eyesee-mpp-system
   CATEGORY:=Allwinner
   SUBMENU:=eyesee-mpp
-  TITLE:=eyesee-mpp-system for Tina Linux
+  TITLE:=eyesee-mpp-system for Flag Linux
   DEPENDS:= +glog +liblua +eyesee-mpp-external
 endef
 

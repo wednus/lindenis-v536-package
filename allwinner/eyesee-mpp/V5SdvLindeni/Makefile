@@ -248,7 +248,7 @@ define Package/$(PKG_NAME)
   SECTION:=eyesee-mpp
   CATEGORY:=Allwinner
   SUBMENU:=eyesee-mpp
-  TITLE:=eyesee-mpp-V5SdvLindeni for Tina Linux
+  TITLE:=eyesee-mpp-V5SdvLindeni for Flag Linux
   DEPENDS:= +eyesee-mpp-framework +eyesee-mpp-external +libjpeg +libpng +eyesee-minigui +tslib
 endef
 

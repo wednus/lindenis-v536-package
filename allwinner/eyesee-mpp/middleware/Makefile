@@ -284,7 +284,7 @@ define Package/$(PKG_NAME)
   SECTION:=eyesee-mpp-middleware
   CATEGORY:=Allwinner
   SUBMENU:=eyesee-mpp
-  TITLE:=eyesee-mpp-middleware for Tina Linux
+  TITLE:=eyesee-mpp-middleware for Flag Linux
   DEPENDS:= +eyesee-mpp-system +zlib +alsa-lib +mpp_systrace:awsystrace
 endef
 

@@ -214,7 +214,7 @@ define Package/$(PKG_NAME)
   SECTION:=eyesee-mpp-awcdr
   CATEGORY:=Allwinner
   SUBMENU:=eyesee-mpp
-  TITLE:=eyesee-mpp-awcdr for Tina Linux
+  TITLE:=eyesee-mpp-awcdr for Flag Linux
   DEPENDS:= +eyesee-mpp-framework +eyesee-mpp-external +libjpeg +libpng +eyesee-minigui +tslib
 endef
 

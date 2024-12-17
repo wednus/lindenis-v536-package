@@ -203,7 +203,7 @@ define Package/$(PKG_NAME)
   SECTION:=eyesee-mpp-V536CdrDragonboard
   CATEGORY:=Allwinner
   SUBMENU:=eyesee-mpp
-  TITLE:=eyesee-mpp-V536CdrDragonboard for Tina Linux
+  TITLE:=eyesee-mpp-V536CdrDragonboard for Flag Linux
   DEPENDS:= +eyesee-mpp-framework +eyesee-mpp-external +libjpeg +libpng +eyesee-minigui +tslib
 endef
 

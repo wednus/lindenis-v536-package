@@ -14,7 +14,7 @@ include $(BUILD_DIR)/package.mk
 define Package/$(PKG_NAME)
   SECTION:=utils
   CATEGORY:=Allwinner
-  TITLE:=adb for Tina Linux
+  TITLE:=adb for Flag Linux
 endef
 
 
@@ -26,14 +26,14 @@ define Package/libawadbauth
   SECTION:=libs
   CATEGORY:=Allwinner
   DEPENDS:= +libev
-  TITLE:=adb auth lib for Tina Linux
+  TITLE:=adb auth lib for Flag Linux
 endef
 
 define Package/adbd_auth_service
   SECTION:=utils
   CATEGORY:=Allwinner
   DEPENDS:= +libawadbauth
-  TITLE:=adb auth service for Tina Linux
+  TITLE:=adb auth service for Flag Linux
 endef
 
 PKG_CONFIG_DEPENDS += CONFIG_PACKAGE_libawadbauth \

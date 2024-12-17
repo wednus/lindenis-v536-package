@@ -209,7 +209,7 @@ define Package/$(PKG_NAME)
   SECTION:=eyesee-mpp-cloud
   CATEGORY:=Allwinner
   SUBMENU:=eyesee-mpp
-  TITLE:=eyesee-mpp-cloud for Tina Linux
+  TITLE:=eyesee-mpp-cloud for Flag Linux
   DEPENDS:= +eyesee-mpp-framework +eyesee-mpp-external +libjpeg +libpng +eyesee-minigui +tslib
 endef
 

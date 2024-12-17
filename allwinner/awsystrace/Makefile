@@ -44,7 +44,7 @@ include $(BUILD_DIR)/package.mk
 define Package/$(PKG_NAME)
   SECTION:=AwDebug
   CATEGORY:=Allwinner
-  TITLE:=awsystrace for Tina Linux
+  TITLE:=awsystrace for Flag Linux
   DEPENDS:= +libstdcpp
 endef
 

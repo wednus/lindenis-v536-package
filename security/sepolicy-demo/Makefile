@@ -41,7 +41,7 @@ define Package/$(PKG_NAME)
   SECTION:=selinux
   CATEGORY:=Security
   SUBMENU:=SELINUX
-  TITLE:=sepolicy-demo for Tina Linux
+  TITLE:=sepolicy-demo for Flag Linux
   DEPENDS:=@USE_SELINUX +selinux
 endef
 

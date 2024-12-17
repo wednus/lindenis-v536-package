@@ -44,7 +44,7 @@ include $(BUILD_DIR)/package.mk
 define Package/$(PKG_NAME)
   SECTION:=eyesee-minigui
   CATEGORY:=Allwinner
-  TITLE:=eyesee-minigui for Tina Linux
+  TITLE:=eyesee-minigui for Flag Linux
   DEPENDS:= +tslib +libjpeg +libpng
 endef
 

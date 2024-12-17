@@ -208,7 +208,7 @@ define Package/$(PKG_NAME)
   SECTION:=eyesee-mpp-framework
   CATEGORY:=Allwinner
   SUBMENU:=eyesee-mpp
-  TITLE:=eyesee-mpp-framework for Tina Linux
+  TITLE:=eyesee-mpp-framework for Flag Linux
   DEPENDS:= +eyesee-mpp-middleware
 endef
 

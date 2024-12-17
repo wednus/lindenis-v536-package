@@ -212,7 +212,7 @@ define Package/$(PKG_NAME)
   SECTION:=eyesee-mpp-V316SdvDragonBoard
   CATEGORY:=Allwinner
   SUBMENU:=eyesee-mpp
-  TITLE:=eyesee-mpp-V316SdvDragonBoard for Tina Linux
+  TITLE:=eyesee-mpp-V316SdvDragonBoard for Flag Linux
   DEPENDS:= +eyesee-mpp-framework +eyesee-mpp-external +libjpeg +libpng +eyesee-minigui +tslib +libnl-tiny
 endef
 

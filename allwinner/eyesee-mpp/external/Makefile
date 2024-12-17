@@ -190,7 +190,7 @@ define Package/$(PKG_NAME)
   SECTION:=eyesee-mpp-external
   CATEGORY:=Allwinner
   SUBMENU:=eyesee-mpp
-  TITLE:=eyesee-mpp-external for Tina Linux
+  TITLE:=eyesee-mpp-external for Flag Linux
   DEPENDS:= +libsqlite3 +glog
 endef
 
