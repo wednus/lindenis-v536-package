@@ -13,7 +13,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=glib-$(PKG_VERSION).tar.xz
 PKG_BUILD_DIR:=$(COMPILE_DIR)/glib-$(PKG_VERSION)
-PKG_SOURCE_URL:=http://ftp.gnome.org/pub/gnome/sources/glib/$(PKG_VERSION)
+PKG_SOURCE_URL:=https://download.gnome.org/sources/glib/2.50
 PKG_HASH:=
 
 PKG_BUILD_PARALLEL:=1
