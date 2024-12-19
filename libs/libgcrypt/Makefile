@@ -12,7 +12,7 @@ PKG_VERSION:=1.7.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=ftp://ftp.gnupg.org/gcrypt/libgcrypt
+PKG_SOURCE_URL:=https://gnupg.org/ftp/gcrypt/libgcrypt
 PKG_MD5SUM:=67ec79bdde8fd815c9cdd55aa9555935
 
 PKG_FIXUP:=patch-libtool
